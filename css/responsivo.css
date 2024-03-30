@@ -1,0 +1,38 @@
+@media screen and (max-width:1005px){
+    /*larguras abaixo de 1005px vão mudar para os próximos parâmetros*/
+    .navbar{
+        position:relative;
+    }
+    .menu{
+        display: none;
+    }
+    .logo{
+        margin:0;
+        text-align:center !important;
+    }
+    .header{
+        padding-top: 50px;
+    }
+    .headline{
+        flex: 100%;
+        margin:5%;
+        text-align:center;
+    }
+    .headline p{
+        text-align: center;
+    }
+    .img-headline{
+        flex: 100%;
+        margin: 5%;
+        text-align:center;
+    }
+    .whats{
+        display:none;
+    }
+    .card{
+        width:100% !important;
+    }
+    section h2{
+        margin-bottom: 30px !important;
+    }
+}
